@@ -180,6 +180,10 @@ body {
     font-size: 2rem;
     cursor: pointer;
   }
+
+  .logo img {
+    height: 2rem !important;
+  }
 }
 
 .link {
@@ -191,6 +195,10 @@ body {
 .link:hover {
   text-decoration-color: rgb(226, 210, 180); /* Underline color */
   cursor: pointer; /* Change cursor to pointer */
+  transform: scale(1.1);
 }
 
 
+.logo img {
+  height: 3rem;
+}

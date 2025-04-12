@@ -96,6 +96,17 @@
     background-position: center;
     background-repeat: no-repeat;
   }
+
+
+
+
+
+
+  .feature-card:hover{
+
+    cursor: pointer;
+
+  }
   
   .car-img img {
     width: 100%;

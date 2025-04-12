@@ -26,7 +26,6 @@ import img13 from "./assets/img13.png"
 import img14 from "./assets/img14.png"
 import t1 from "./assets/t1.png"
 import t2 from "./assets/t2.png"
-import t3 from "./assets/t3.png"
 
 export default function Content() {
 

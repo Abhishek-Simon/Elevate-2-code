@@ -26,6 +26,8 @@
 import React, { useState } from "react";
 import "./Navbar.css";
 import { FaBars, FaTimes } from "react-icons/fa";
+import t3 from "./assets/t3.png"
+
 
 const Navbar = () => {
   const [sidePanelOpen, setSidePanelOpen] = useState(false);
@@ -37,7 +39,9 @@ const Navbar = () => {
   return (
     <>
       <nav className="navbar">
-        <div className="logo">Hot Wheels</div>
+        <div className="logo">
+          <img src={t3} alt="" />
+        </div>
         <ul className="nav-links">
 
           <a href = "#" class="link"><li>Home</li></a>
