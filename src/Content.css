@@ -614,6 +614,11 @@ footer{
   .footer-center .icons{
     margin-bottom: 2rem;
   }
+
+  .page6 h1{
+    text-align: center;
+    margin-left: 0 !important;
+  }
 }
 
 .icon h2,p{
